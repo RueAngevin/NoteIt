@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react';
 import Main from './componenets/Main.jsx';
 
 function App() {
 
-  return (
-    <>
-      <Main />
-    </>
-  )
+    return (
+        <>
+            <Main/>
+        </>
+    );
 }
 
-export default App
+export default App;
