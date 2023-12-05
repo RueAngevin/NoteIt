@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-select {
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
