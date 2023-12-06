@@ -13,7 +13,7 @@ const Folder = () => {
         <>
             {folder ? (
                 <div>
-                    <div className='flex justify-between group hover:bg-gray-200 border-b-2 border-gray-300 p-4 cursor-pointer'>
+                    <div className='flex justify-between group transition duration-200 hover:bg-gray-200 border-b-2 border-gray-300 p-4 cursor-pointer'>
 
                         <svg onClick={toggleFolder} xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
                              fill='currentColor'

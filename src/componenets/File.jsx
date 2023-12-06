@@ -3,7 +3,7 @@ import React from 'react';
 const File = () => {
     return (
         <>
-            <div className='grid grid-cols-3 p-4 bg-rose-100 cursor-pointer border-b border-gray-300'>
+            <div className='grid grid-cols-3 p-4 bg-rose-100 transition duration-200 hover:bg-rose-200 cursor-pointer border-b border-gray-300'>
 
                 <p className='col-span-2 place-self-center'>French</p>
 
