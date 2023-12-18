@@ -6,7 +6,7 @@ const Main = () => {
         <>
             <div className='grid grid-cols-5 font-mono'>
 
-                <Sidenav/>
+                <Sidenav />
 
                 <div className='h-screen w-full overflow-hidden bg-amber-50 p-[0.5rem] col-span-4'>
 
