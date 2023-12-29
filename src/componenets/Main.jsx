@@ -1,5 +1,6 @@
 import React from 'react';
 import Sidenav from './Sidenav.jsx';
+import Note from './Note.jsx';
 
 const Main = () => {
     return (
@@ -9,6 +10,8 @@ const Main = () => {
                 <Sidenav />
 
                 <div className='h-screen w-full overflow-hidden bg-amber-50 p-[0.5rem] col-span-4'>
+
+                    <Note />
 
                 </div>
 
